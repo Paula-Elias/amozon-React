@@ -69,7 +69,7 @@ class PanelAdd extends React.Component {
                         </select>
                         </p>
                         <input type="submit" className="button btn-blue" value="Registrar libro" />
-                        <button className="button btn-normal" onClick={this.cancelAction}>Cancelar</button>
+                        <button className="button btn-normal" onClick={this.props.onhide}>Cancelar</button>
                     </form>
                 </div>
             </div>
